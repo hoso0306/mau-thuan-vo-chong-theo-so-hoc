@@ -138,7 +138,7 @@ export default function App() {
   const [refStatus, setRefStatus] = useState<ReferenceStatus>({ initialized: false });
 
   useEffect(() => {
-    fetch("/app/mauthuanvochong/api/reference-status")
+    fetch("/api/reference-status")
       .then((res) => res.json())
       .then((data) => {
         if (data && data.initialized) {
@@ -264,7 +264,7 @@ export default function App() {
     setResult(null);
 
     try {
-      const response = await fetch("/app/mauthuanvochong/api/analyze", {
+      const response = await fetch("/api/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
