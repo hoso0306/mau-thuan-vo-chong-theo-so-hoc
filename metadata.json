@@ -1,0 +1,6 @@
+{
+  "name": "Mâu Thuẫn Vợ Chồng Theo Số Học",
+  "description": "Ứng dụng phân tích hòa hợp và hóa giải mâu thuẫn vợ chồng dựa trên Số học Mặt Trời và AI Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
